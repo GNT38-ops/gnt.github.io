@@ -1,0 +1,4 @@
+# Static site: no build step needed, files are served from public/
+[build]
+  command = "echo 'Static site - no build required'"
+  publish = "public"
